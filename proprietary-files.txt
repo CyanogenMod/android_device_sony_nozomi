@@ -98,3 +98,4 @@ etc/firmware/wlan/volans/WCN1314_qcom_cfg.ini
 etc/firmware/wlan/volans/WCN1314_qcom_fw.bin
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
+etc/firmware/RPM.bin
