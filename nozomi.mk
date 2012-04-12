@@ -19,7 +19,8 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
+		$(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
+		$(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
 
 $(call inherit-product, build/target/product/full.mk)
 

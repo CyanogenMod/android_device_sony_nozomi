@@ -1,0 +1,1 @@
+dev_mount sdcard /mnt/sdcard 15 /devices/platform/msm_sdcc.1/mmc_host/mmc0/mmc0:0001/block/mmcblk0 nonremovable,encryptable

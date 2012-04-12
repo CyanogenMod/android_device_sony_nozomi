@@ -9,6 +9,7 @@ USE_CAMERA_STUB := true
 TARGET_PREBUILT_KERNEL := device/sony/nozomi/kernel
 
 # Partition information
+BOARD_VOLD_MAX_PARTITIONS := 16
 
 # the following two sizes are generous guesses
 # since these partitions are not visible
