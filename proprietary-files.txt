@@ -32,6 +32,7 @@ lib/egl/libq3dtools_adreno200.so
 lib/libgsl.so
 lib/libC2D2.so
 lib/libOpenVG.so
+lib/libsc-a2xx.so
 lib/libgemini.so
 lib/libmmipl.so
 lib/libmmjpeg.so
@@ -99,3 +100,9 @@ etc/firmware/wlan/volans/WCN1314_qcom_fw.bin
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 etc/firmware/RPM.bin
+etc/firmware/a225_pfp.fw
+etc/firmware/a225_pm4.fw
+etc/firmware/a225p5_pm4.fw
+etc/firmware/a300_pfp.fw
+etc/firmware/a300_pm4.fw
+
