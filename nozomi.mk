@@ -25,7 +25,7 @@ $(call inherit-product, build/target/product/full.mk)
 PRODUCT_COPY_FILES += \
 		$(LOCAL_PATH)/config/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
 		$(LOCAL_PATH)/config/clearpad.kl:system/usr/keylayout/clearpad.kl \
-		$(LOCAL_PATH)/config/clearpad.idc:system/usr/keylayout/clearpad.idc \
+		$(LOCAL_PATH)/config/clearpad.idc:system/usr/idc/clearpad.idc \
 		$(LOCAL_PATH)/config/fuji-keypad.kl:system/usr/keylayout/fuji-keypad.kl \
 		$(LOCAL_PATH)/config/gpio-key.kl:system/usr/keylayout/gpio-key.kl \
 		$(LOCAL_PATH)/config/keypad-pmic-fuji.kl:system/usr/keylayout/keypad-pmic-fuji.kl \
