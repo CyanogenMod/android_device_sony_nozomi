@@ -44,6 +44,11 @@ PRODUCT_COPY_FILES += \
 		$(LOCAL_PATH)/config/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
 		$(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl
 
+# Misc configuration files
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)config/thermald-semc.conf:system/etc/thermald-semc.conf \
+		$(LOCAL_PATH)config/thermald.conf:system/etc/thermald.conf
+
 PRODUCT_NAME := full_nozomi
 PRODUCT_DEVICE := nozomi
 PRODUCT_MODEL := LT26i
