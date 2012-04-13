@@ -51,8 +51,8 @@ PRODUCT_COPY_FILES += \
 
 # Misc configuration files
 PRODUCT_COPY_FILES += \
-		$(LOCAL_PATH)config/thermald-semc.conf:system/etc/thermald-semc.conf \
-		$(LOCAL_PATH)config/thermald.conf:system/etc/thermald.conf
+		$(LOCAL_PATH)/config/thermald-semc.conf:system/etc/thermald-semc.conf \
+		$(LOCAL_PATH)/config/thermald.conf:system/etc/thermald.conf
 
 PRODUCT_NAME := full_nozomi
 PRODUCT_DEVICE := nozomi
