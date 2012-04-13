@@ -18,6 +18,11 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Configuration scripts
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
+		$(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
+
 # USB function switching
 PRODUCT_COPY_FILES += \
 		$(LOCAL_PATH)/config/init.semc.usb.rc:root/init.semc.usb.rc
