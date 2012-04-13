@@ -18,6 +18,10 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# USB function switching
+PRODUCT_COPY_FILES += \
+		$(LOCAL_PATH)/config/init.semc.usb.rc:root/init.semc.usb.rc
+
 PRODUCT_COPY_FILES += \
 		$(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
 		$(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
