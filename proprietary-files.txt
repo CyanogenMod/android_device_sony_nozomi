@@ -6,6 +6,9 @@ bin/netmgrd
 bin/qmuxd
 bin/rmt_storage
 bin/thermald
+bin/port-bridge
+bin/mpdecision
+bin/rild
 
 # QCom libraries
 lib/libdiag.so
@@ -17,6 +20,7 @@ lib/libqdp.so
 lib/libqmi.so
 lib/libqmiservices.so
 lib/libril-qc-qmi-1.so
+lib/libril.so
 lib/liboncrpc.so
 lib/libdsm.so
 lib/libqueue.so
