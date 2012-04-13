@@ -17,11 +17,17 @@ lib/libqdp.so
 lib/libqmi.so
 lib/libqmiservices.so
 lib/libril-qc-qmi-1.so
+lib/liboncrpc.so
+lib/libdsm.so
+lib/libqueue.so
 
 # Exmor camera libraries - Add later
 
 # Misc HALS
 lib/hw/sensors.default.so
+lib/libMPU3050.so
+lib/libthermal_mitigation.so
+lib/libthermal_mitigation_fusion.so
 
 # Graphics Libs
 lib/egl/eglsubAndroid.so
