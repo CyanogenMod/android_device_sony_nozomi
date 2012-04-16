@@ -3,6 +3,7 @@ bin/hdmid
 
 # Misc Qualcomm daemons
 bin/netmgrd
+bin/chargemon
 bin/qmuxd
 bin/rmt_storage
 bin/thermald
@@ -24,6 +25,10 @@ lib/libril.so
 lib/liboncrpc.so
 lib/libdsm.so
 lib/libqueue.so
+lib/libmiscta.so
+lib/liboem_rapi.so
+lib/libnv.so
+lib/libdss.so
 
 # Exmor camera libraries - Add later
 
