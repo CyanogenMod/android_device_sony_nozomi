@@ -1,15 +1,31 @@
 # HDMI
-bin/hdmid
+#bin/hdmid
 
 # Misc Qualcomm daemons
-bin/netmgrd
-bin/chargemon
-bin/qmuxd
-bin/rmt_storage
+bin/nvimport
+bin/semcwall
 bin/thermald
-bin/port-bridge
-bin/mpdecision
 bin/rild
+bin/rmt_storage
+bin/touchd
+bin/tad
+bin/illumination_service
+bin/time_daemon
+bin/port-bridge
+bin/btld
+bin/mpdecision
+bin/nvcustomizer
+bin/updatemiscta
+bin/bq275xx_fwloader
+bin/suntrold
+bin/ta_reader
+bin/netmgrd
+bin/cal_data_manager
+bin/fast-dormancy
+bin/ta_rmt_service
+bin/secchand
+bin/qmuxd
+bin/chargemon
 
 # QCom libraries
 lib/libdiag.so
@@ -30,13 +46,48 @@ lib/liboem_rapi.so
 lib/libnv.so
 lib/libdss.so
 
-# Exmor camera libraries - Add later
+# Exmor camera libraries
+etc/flashled_calc_parameters.cfg
+lib/hw/camera.msm8660.so
+lib/libcald_imageutil.so
+lib/libcald_util.so
+lib/libcameraextensionclient.so
+lib/libgemini.so
+lib/libmmmpo.so
+lib/libcameralight.so
+lib/libmmipl.so
+lib/libcamera_clientsemc.so
+lib/liboemcamera.so
+lib/libcald_hal.so
+lib/libcald_pal.so
+lib/libals.so
+lib/libcamera_client.so
+lib/libcameraextensionjni.so
+lib/libcald_server.so
+lib/libcald_client.so
+lib/libmmjpeg.so
+lib/libcameraextensionservice.so
+lib/libmmstereo.so
+lib/libface.so
+etc/firmware/cal.bin
+usr/semc/camera/KMO13BS0_BU6456.dat
+usr/semc/camera/APT01BM0.dat
+usr/semc/camera/KMO13BS0.dat
+usr/semc/camera/SOI13BS0.dat
+usr/semc/camera/KMO13BS0_IMX091.dat
+usr/semc/camera/SOI13BS0_BU6456.dat
+usr/semc/camera/STW01BM0.dat
+usr/semc/camera/flash.dat
+usr/semc/camera/product.dat
+usr/semc/camera/SOI13BS0_IMX091.dat
 
 # Misc HALS
 lib/hw/sensors.default.so
+etc/sensors.conf
 lib/libMPU3050.so
 lib/libthermal_mitigation.so
 lib/libthermal_mitigation_fusion.so
+etc/clearpad_fwloader.sh
 
 # Graphics Libs
 lib/egl/eglsubAndroid.so
@@ -48,9 +99,6 @@ lib/libgsl.so
 lib/libC2D2.so
 lib/libOpenVG.so
 lib/libsc-a2xx.so
-lib/libgemini.so
-lib/libmmipl.so
-lib/libmmjpeg.so
 lib/libmm-color-convertor.so
 lib/libmpl.so
 lib/libmllite.so
@@ -121,3 +169,6 @@ etc/firmware/a225p5_pm4.fw
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
 
+etc/fast-dormany/fd_ext_conf.txt
+etc/fast-dormany/fd_int_conf.txt
+etc/fast-dormany/fx_custm_conf.txt
