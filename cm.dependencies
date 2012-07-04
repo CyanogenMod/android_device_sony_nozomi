@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "android_device_sony_fuji-common",
+    "target_path": "device/sony/fuji-common"
+ },
+ {
+   "repository": "semc-kernel-msm8x60",
+   "target_path": "kernel/sony/msm8660",
+   "branch": "6.1.A.0.452"
+  }
+]

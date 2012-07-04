@@ -6,7 +6,9 @@ USE_CAMERA_STUB := true
 #inherit from the common fuji definitions
 -include device/sony/fuji-common/BoardConfigCommon.mk
 
-TARGET_PREBUILT_KERNEL := device/sony/nozomi/kernel
+TARGET_KERNEL_SOURCE := kernel/sony/msm8660
+TARGET_KERNEL_CONFIG := cyanogen_nozomi_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/nozomi/prebuilt/kernel
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
