@@ -128,7 +128,6 @@ lib/hw/lights.semc.so
 lib/libcald_imageutil.so
 lib/libdiag.so
 lib/libqdp.so
-lib/modules/bcm4330.ko
 lib/libta.so
 lib/libOpenVG.so
 lib/libcald_util.so
