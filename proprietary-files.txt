@@ -1,5 +1,4 @@
 bin/bq275xx_fwloader
-bin/btld
 bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
@@ -85,7 +84,6 @@ etc/permissions/android.hardware.sensor.gyroscope.xml
 etc/sensors.conf
 etc/vold.fstab
 etc/wifi/calibration
-etc/wifi/wpa_supplicant.conf
 lib/egl/eglsubAndroid.so
 lib/egl/libEGL_adreno200.so
 lib/egl/libGLESv1_CM_adreno200.so
