@@ -4,7 +4,23 @@ VENDOR=sony
 DEVICE=nozomi
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
-rm -rf $BASE/*
+
+while getopts ":nh" options
+do
+  case $options in
+    n ) NC=1 ;;
+    h ) echo "Usage: `basename $0` [OPTIONS] "
+        echo "  -n  No clenup"
+        echo "  -h  Show this help"
+        exit ;;
+    * ) ;;
+  esac
+done
+
+if [ "x$NC" != "x1" ];
+then
+    rm -rf $BASE/*
+fi
 
 for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     DIR=`dirname $FILE`
