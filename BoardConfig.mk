@@ -8,7 +8,6 @@ USE_CAMERA_STUB := true
 
 TARGET_KERNEL_SOURCE := kernel/sony/msm8660
 TARGET_KERNEL_CONFIG := cyanogen_nozomi_defconfig
-TARGET_PREBUILT_KERNEL := device/sony/nozomi/prebuilt/kernel
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16

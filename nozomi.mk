@@ -43,10 +43,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# Wifi module
-PRODUCT_COPY_FILES += \
-   device/sony/nozomi/prebuilt/bcm4330.ko:system/lib/modules/bcm4330.ko
-
 # Configuration scripts
 PRODUCT_COPY_FILES += \
    device/sony/fuji-common/prebuilt/logo_X.rle:root/logo.rle \
