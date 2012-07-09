@@ -36,11 +36,6 @@ etc/firmware/dsps_fluid.b01
 etc/firmware/dsps_fluid.b02
 etc/firmware/dsps_fluid.b03
 etc/firmware/dsps_fluid.mdt
-etc/firmware/fw_bcm4330b1.bin
-etc/firmware/fw_bcm4330b1_apsta.bin
-etc/firmware/fw_bcm4330b2.bin
-etc/firmware/fw_bcm4330b2_apsta.bin
-etc/firmware/fw_bcm4330b2_p2p.bin
 etc/firmware/leia_pfp_470.fw
 etc/firmware/leia_pm4_470.fw
 etc/firmware/modem.b00
@@ -78,9 +73,6 @@ etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 etc/flashled_calc_parameters.cfg
 etc/init.qcom.bt.sh
-etc/permissions/android.hardware.camera.front.xml
-etc/permissions/android.hardware.nfc.xml
-etc/permissions/android.hardware.sensor.gyroscope.xml
 etc/sensors.conf
 etc/vold.fstab
 etc/wifi/calibration
@@ -157,14 +149,11 @@ lib/libthermal_mitigation_fusion.so
 lib/libtime_remote_atom.so
 lib/libv8.so
 usr/idc/clearpad.idc
-usr/keylayout/AVRCP.kl
-usr/keylayout/Generic.kl
 usr/keylayout/clearpad.kl
 usr/keylayout/fuji-keypad.kl
 usr/keylayout/gpio-key.kl
 usr/keylayout/keypad-pmic-fuji.kl
 usr/keylayout/pmic8058_pwrkey.kl
-usr/keylayout/qwerty.kl
 usr/keylayout/simple_remote.kl
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
