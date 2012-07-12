@@ -65,8 +65,6 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/recovery/bootrec-device:root/sbin/bootrec-device \
    $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab
 
-$(call inherit-product, build/target/product/full.mk)
-
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/atdaemon.kl:system/usr/keylayout/atdaemon.kl \
