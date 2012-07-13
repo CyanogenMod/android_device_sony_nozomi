@@ -23,14 +23,11 @@
 
     <bool name="config_animateScreenLights">false</bool>
 
-    <!-- The default iface on which to monitor data use -->
-    <string name="config_datause_iface">rmnet_sdio0</string>
-
     <!-- Component name of the service providing network location support. -->
-    <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
+    <string name="config_networkLocationProviderPackageName">com.google.android.location.NetworkLocationProvider</string>
 
     <!-- Component name of the service providing geocoder API support. -->
-    <string name="config_geocodeProvider">com.google.android.location.GeocodeProvider</string>
+    <string name="config_geocodeProviderPackageName">com.google.android.location.GeocodeProvider</string>
 
     <!-- Boolean indicating if current platform supports quick switch-on/off of
                   Bluetooth Module -->

@@ -34,7 +34,7 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
+    frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
 # This device is xhdpi.  However the platform doesn't
 # currently contain all of the bitmaps at xhdpi density so
@@ -55,6 +55,9 @@ PRODUCT_COPY_FILES += \
 # USB function switching
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/init.semc.usb.rc:root/init.semc.usb.rc
+
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/config/fstab.semc:root/fstab.semc
 
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
@@ -91,7 +94,7 @@ PRODUCT_COPY_FILES += \
     device/sony/fuji-common/prebuilt/animations/charging_animation_06_X.png:system/semc/chargemon/data/charging_animation_06.png \
     device/sony/fuji-common/prebuilt/animations/charging_animation_07_X.png:system/semc/chargemon/data/charging_animation_07.png
 
-$(call inherit-product, frameworks/base/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/sony/nozomi/nozomi-vendor.mk)
 
