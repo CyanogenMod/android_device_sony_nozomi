@@ -43,6 +43,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/prebuilt/bcmdhd.ko:system/lib/modules/bcmdhd.ko
+
 # Configuration scripts
 PRODUCT_COPY_FILES += \
    device/sony/fuji-common/prebuilt/logo_X.rle:root/logo.rle \
