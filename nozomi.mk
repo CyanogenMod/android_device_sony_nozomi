@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
 # Recovery bootstrap (device-specific part)
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/recovery/bootrec-device:root/sbin/bootrec-device \
-   $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab
+   $(LOCAL_PATH)/recovery.fstab:root/etc/recovery.fstab
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
