@@ -3,7 +3,6 @@ bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
 bin/fast-dormancy
-bin/fota-snoop
 bin/illumination_service
 bin/mpdecision
 bin/netmgrd
@@ -11,6 +10,7 @@ bin/nvcustomizer
 bin/nvimport
 bin/port-bridge
 bin/qmuxd
+bin/rild
 bin/rmt_storage
 bin/secchand
 bin/semc-atfwd-d
@@ -139,6 +139,7 @@ lib/libqdp.so
 lib/libqmi.so
 lib/libqmiservices.so
 lib/libqueue.so
+lib/libril.so
 lib/libril-qc-qmi-1.so
 lib/libs1sl.so
 lib/libsc-a2xx.so
