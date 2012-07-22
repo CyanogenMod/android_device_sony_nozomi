@@ -23,9 +23,6 @@
 
     <bool name="config_animateScreenLights">false</bool>
 
-    <!-- The default iface on which to monitor data use -->
-    <string name="config_datause_iface">rmnet_sdio0</string>
-
     <!-- Component name of the service providing network location support. -->
     <string name="config_networkLocationProvider">com.google.android.location.NetworkLocationProvider</string>
 
