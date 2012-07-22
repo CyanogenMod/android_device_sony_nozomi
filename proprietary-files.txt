@@ -84,7 +84,6 @@ lib/egl/libGLESv2_adreno200.so
 lib/egl/libq3dtools_adreno200.so
 lib/hw/camera.msm8660.so
 lib/hw/gps.msm8660.so
-lib/hw/lights.semc.so
 lib/hw/nfc.msm8660.so
 lib/hw/sensors.default.so
 lib/libC2D2.so
