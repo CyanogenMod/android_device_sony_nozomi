@@ -4,6 +4,9 @@ $(call inherit-product, device/sony/nozomi/full_nozomi.mk)
 $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+
 # Release name and versioning
 PRODUCT_RELEASE_NAME := XperiaS-LT26i
 
