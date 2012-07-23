@@ -22,6 +22,8 @@ debug.sf.hw=1
 debug.enabletr=true
 debug.composition.type=dyn
 ro.sf.compbypass.enable=1
+ro.hdmi.enable=false
+com.qc.hdmi_out=false
 
 # QCOM CpuGovernorService
 dev.pm.dyn_samplingrate=1
