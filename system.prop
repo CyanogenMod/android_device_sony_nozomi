@@ -28,6 +28,10 @@ com.qc.hdmi_out=false
 # QCOM CpuGovernorService
 dev.pm.dyn_samplingrate=1
 
+# QCOM LPA (Low Power Audio)
+lpa.use-stagefright=true
+lpa.decode=true
+
 # system prop for opengles version
 ro.opengles.version=131072
 
