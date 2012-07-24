@@ -12,7 +12,6 @@ echo 6146 > /sys/class/android_usb/android0/idProduct
 echo mass_storage,adb > /sys/class/android_usb/android0/functions
 echo 1 > /sys/class/android_usb/android0/enable
 stop adbd
-start adbd
 
 # trigger amber LED
 echo '255' > /sys/class/leds/blue/brightness
