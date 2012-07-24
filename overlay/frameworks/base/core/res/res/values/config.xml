@@ -21,6 +21,8 @@
      for different hardware and product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <bool name="config_animateScreenLights">false</bool>
+
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
@@ -43,11 +45,10 @@
         <item>7</item>
     </integer-array>
 
-    <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
-    <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
-
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
+
+    <bool translatable="false" name="config_wifi_p2p_support">true</bool>
 
     <string-array translatable="false" name="config_tether_wifi_regexs">
         <item>"wlan0"</item>
@@ -88,8 +89,6 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
-                  specified -->
-    <string name="default_wallpaper_component">com.android.phasebeam/.PhaseBeamWallpaper</string>
+    <bool name="config_autoBrightnessButtonKeyboard">false</bool>
 
 </resources>

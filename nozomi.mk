@@ -14,23 +14,16 @@
 # limitations under the License.
 #
 
+# Inherit the proprietary counterpart
+$(call inherit-product-if-exists, vendor/sony/nozomi/nozomi-vendor.mk)
+
+DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
+
 # Inherit the fuji-common definitions
 $(call inherit-product, device/sony/fuji-common/fuji.mk)
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
-
-# Inherit the proprietary counterpart
-$(call inherit-product-if-exists, vendor/sony/nozomi/nozomi-vendor.mk)
-
-# misc
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.setupwizard.enable_bypass=1 \
-    dalvik.vm.lockprof.threshold=500 \
-    ro.com.google.locationfeatures=1 \
-    dalvik.vm.dexopt-flags=m=y
-
-DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -42,9 +35,6 @@ PRODUCT_COPY_FILES += \
 # if the xhdpi doesn't exist.
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
-
-PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/prebuilt/bcmdhd.ko:system/lib/modules/bcmdhd.ko
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
