@@ -20,7 +20,6 @@ bin/ta_reader
 bin/ta_rmt_service
 bin/tad
 bin/thermald
-bin/time_daemon
 bin/updatemiscta
 bin/wait4tad
 etc/clearpad_fwloader.sh
