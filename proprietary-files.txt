@@ -20,7 +20,6 @@ bin/ta_reader
 bin/ta_rmt_service
 bin/tad
 bin/thermald
-bin/time_daemon
 bin/updatemiscta
 bin/wait4tad
 etc/clearpad_fwloader.sh
@@ -146,7 +145,6 @@ lib/libta.so
 lib/libta_rmt_clnt.so
 lib/libthermal_mitigation.so
 lib/libthermal_mitigation_fusion.so
-lib/libtime_genoff.so
 lib/libtime_remote_atom.so
 lib/libv8.so
 usr/idc/clearpad.idc

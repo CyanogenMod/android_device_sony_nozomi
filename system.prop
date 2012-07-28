@@ -42,8 +42,5 @@ wifi.supplicant_scan_interval=30
 ro.use_data_netmgrd=true
 persist.data_netmgrd_nint=3
 
-#system props for time-services
-persist.timed.enable=true
-
 # System prop for sending transmit power request to RIL during WiFi hotspot on/off
 ro.ril.transmitpower=true
