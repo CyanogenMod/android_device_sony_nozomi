@@ -100,7 +100,6 @@ lib/libcald_imageutil.so
 lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcald_util.so
-lib/libcamera_client.so
 lib/libcamera_clientsemc.so
 lib/libcameraextensionclient.so
 lib/libcameraextensionjni.so
