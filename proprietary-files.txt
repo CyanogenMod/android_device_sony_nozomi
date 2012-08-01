@@ -86,6 +86,7 @@ lib/hw/gps.msm8660.so
 lib/hw/nfc.msm8660.so
 lib/hw/sensors.default.so
 lib/libC2D2.so
+lib/libc2d2_z180.so
 lib/libMPU3050.so
 lib/libOpenVG.so
 lib/lib_asb_tee.so
