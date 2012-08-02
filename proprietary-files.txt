@@ -146,7 +146,6 @@ lib/libta.so
 lib/libta_rmt_clnt.so
 lib/libthermal_mitigation.so
 lib/libthermal_mitigation_fusion.so
-lib/libtime_remote_atom.so
 lib/libv8.so
 usr/idc/clearpad.idc
 usr/keylayout/clearpad.kl
