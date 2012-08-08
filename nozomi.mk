@@ -72,10 +72,9 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
    $(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl
 
-# Misc configuration files
+# Thermal monitor configuration
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/thermald-semc.conf:system/etc/thermald-semc.conf \
-   $(LOCAL_PATH)/config/thermald.conf:system/etc/thermald.conf
+   $(LOCAL_PATH)/config/thermald-semc.conf:system/etc/thermald-semc.conf
 
 #Offline charging animation
 PRODUCT_COPY_FILES += \
