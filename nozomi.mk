@@ -40,10 +40,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
    device/sony/fuji-common/prebuilt/logo_X.rle:root/logo.rle \
 
-# Audio
-PRODUCT_COPY_FILE += \
-   $(LOCAL_PATH)/config/audio_policy.conf:system/etc/audio_policy.conf \
-
 # Configuration scripts
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
