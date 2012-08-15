@@ -76,10 +76,6 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
    $(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl
 
-# Thermal monitor configuration
-PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/thermald-semc.conf:system/etc/thermald-semc.conf
-
 #Offline charging animation
 PRODUCT_COPY_FILES += \
     device/sony/fuji-common/prebuilt/animations/charging_animation_01_X.png:system/semc/chargemon/data/charging_animation_01.png \
