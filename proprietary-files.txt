@@ -73,7 +73,6 @@ etc/firmware/yamato_pm4.fw
 etc/flashled_calc_parameters.cfg
 etc/init.qcom.bt.sh
 etc/sensors.conf
-etc/vold.fstab
 etc/wifi/calibration
 lib/egl/eglsubAndroid.so
 lib/egl/libEGL_adreno200.so
