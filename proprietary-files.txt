@@ -146,7 +146,6 @@ lib/libta.so
 lib/libta_rmt_clnt.so
 lib/libthermal_mitigation.so
 lib/libthermal_mitigation_fusion.so
-lib/libv8.so
 usr/idc/clearpad.idc
 usr/keylayout/clearpad.kl
 usr/keylayout/fuji-keypad.kl
