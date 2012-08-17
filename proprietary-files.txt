@@ -147,13 +147,6 @@ lib/libta_rmt_clnt.so
 lib/libthermal_mitigation.so
 lib/libthermal_mitigation_fusion.so
 lib/libv8.so
-usr/idc/clearpad.idc
-usr/keylayout/clearpad.kl
-usr/keylayout/fuji-keypad.kl
-usr/keylayout/gpio-key.kl
-usr/keylayout/keypad-pmic-fuji.kl
-usr/keylayout/pmic8058_pwrkey.kl
-usr/keylayout/simple_remote.kl
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
 vendor/camera/KMO13BS0_BU6456.dat

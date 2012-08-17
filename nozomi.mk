@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit the proprietary counterpart
-$(call inherit-product-if-exists, vendor/sony/nozomi/nozomi-vendor.mk)
-
 DEVICE_PACKAGE_OVERLAYS += device/sony/nozomi/overlay
 
 # Inherit the fuji-common definitions
