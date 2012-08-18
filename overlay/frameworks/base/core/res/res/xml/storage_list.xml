@@ -36,8 +36,13 @@
       <storage android:mountPoint="/mnt/sdcard"
              android:storageDescription="@string/storage_internal"
              android:primary="true"
-             android:allowMassStorage="true"
-             android:emulated="true"
              android:removable="false"
+             android:allowMassStorage="true"
              android:mtpReserve="100" />
+
+    <storage android:mountPoint="/mnt/usbdisk"
+             android:storageDescription="@string/storage_usb"
+             android:primary="false"
+             android:removable="true" />
+
 </StorageList>
