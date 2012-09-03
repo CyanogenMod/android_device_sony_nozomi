@@ -33,7 +33,8 @@
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
-    <bool name="config_animateScreenLights">false</bool>
+    <!-- NOTE: Set to true for now so electron beam isn't used. This causes a screen lockup on our QCOM's right now. -->
+    <bool name="config_animateScreenLights">true</bool>
 
     <!-- Boolean indicating if current platform supports quick switch-on/off of
                   Bluetooth Module -->
