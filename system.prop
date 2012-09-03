@@ -36,6 +36,7 @@ wifi.supplicant_scan_interval=30
 
 # system props for the data modules
 ro.use_data_netmgrd=true
+persist.data_netmgrd_nint=3
 
 # System prop for sending transmit power request to RIL during WiFi hotspot on/off
 ro.ril.transmitpower=true
