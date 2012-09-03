@@ -31,6 +31,10 @@ dev.pm.dyn_samplingrate=1
 # system prop for opengles version
 ro.opengles.version=131072
 
+# QCOM LPA (Low Power Audio)
+lpa.use-stagefright=true
+lpa.decode=true
+
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=30
 
