@@ -21,9 +21,10 @@ ro.ril.gprsclass=10
 ro.sf.lcd_density=320
 com.qc.hardware=true
 debug.sf.hw=1
-debug.composition.type=gpu
+debug.composition.type=dyn
 debug.mdpcomp.maxlayer=3
 debug.mdpcomp.logs=0
+ro.hwui.text_cache_width=2048
 
 # QCOM CpuGovernorService
 dev.pm.dyn_samplingrate=1
