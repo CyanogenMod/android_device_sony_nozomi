@@ -21,9 +21,11 @@ ro.ril.gprsclass=10
 ro.sf.lcd_density=320
 com.qc.hardware=true
 debug.sf.hw=1
+debug.enabletr=true
 debug.composition.type=dyn
 debug.mdpcomp.maxlayer=3
 debug.mdpcomp.logs=0
+debug.hwc.dynThreshold=2.0
 ro.hwui.text_cache_width=2048
 
 # QCOM CpuGovernorService
