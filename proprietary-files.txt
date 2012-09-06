@@ -8,7 +8,6 @@ bin/mpdecision
 bin/netmgrd
 bin/nvcustomizer
 bin/nvimport
-bin/port-bridge
 bin/qmuxd
 bin/rild
 bin/rmt_storage
@@ -71,7 +70,6 @@ etc/firmware/vidc_1080p.fw
 etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 etc/flashled_calc_parameters.cfg
-etc/init.qcom.bt.sh
 etc/sensors.conf
 etc/wifi/calibration
 lib/egl/eglsubAndroid.so
@@ -132,6 +130,7 @@ lib/liboem_rapi.so
 lib/liboemcamera.so
 lib/liboncrpc.so
 lib/libprotobuf-c.so
+lib/libqc-opt.so
 lib/libqdi.so
 lib/libqdp.so
 lib/libqmi.so
