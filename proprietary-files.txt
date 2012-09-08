@@ -157,3 +157,9 @@ vendor/camera/SOI13BS1_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
+app/antstatenotifer.apk
+app/antradioservice.apk
+app/AntHalService.apk
+etc/permissions/com.dsi.ant.antradio_library.xml
+framework/com.dsi.ant.antradio_library.jar
+lib/libanthal.so
