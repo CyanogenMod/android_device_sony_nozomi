@@ -43,3 +43,5 @@ persist.data_netmgrd_nint=3
 
 # System prop for sending transmit power request to RIL during WiFi hotspot on/off
 ro.ril.transmitpower=true
+
+ro.hardware.respect_als=true
