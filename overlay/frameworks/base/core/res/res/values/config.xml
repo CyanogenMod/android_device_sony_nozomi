@@ -36,6 +36,12 @@
     <!-- NOTE: Set to true for now so electron beam isn't used. This causes a screen lockup on our QCOM's right now. -->
     <bool name="config_animateScreenLights">true</bool>
 
+    <!-- Flag indicating whether the we should enable the automatic brightness in Settings. -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- Minimum screen brightness allowed by the power manager. -->
+    <integer name="config_screenBrightnessDim">50</integer>
+
     <!-- Boolean indicating if current platform supports quick switch-on/off of
                   Bluetooth Module -->
     <bool name="config_bluetooth_adapter_quick_switch">false</bool>
