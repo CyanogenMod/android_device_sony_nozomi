@@ -6,7 +6,6 @@ USE_CAMERA_STUB := true
 #inherit from the common fuji definitions
 -include device/sony/fuji-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_SOURCE := kernel/sony/msm8660
 TARGET_KERNEL_CONFIG := cyanogen_nozomi_defconfig
 
 # Partition information
@@ -26,4 +25,4 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 BOARD_SDCARD_INTERNAL_DEVICE := /dev/block/mmcblk0p15
 
-TARGET_OTA_ASSERT_DEVICE := LT26i,LT26a,nozomi
+TARGET_OTA_ASSERT_DEVICE := LT26i,nozomi
