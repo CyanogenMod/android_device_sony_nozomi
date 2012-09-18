@@ -26,7 +26,6 @@ etc/fast-dormancy/fd_custm_conf.txt
 etc/fast-dormancy/fd_ext_conf.txt
 etc/fast-dormancy/fd_int_conf.txt
 etc/firmware/BCM4330.hcd
-etc/firmware/RPM.bin
 etc/firmware/bq27520_fw-0507_filever-0116_proj-nozo_golden.bqfs
 etc/firmware/bq27520_fw-0507_filever-0116_proj-nozo_golden.dffs
 etc/firmware/dsps_fluid.b00
