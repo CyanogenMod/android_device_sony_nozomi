@@ -30,6 +30,9 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from nozomi device
+$(call inherit-product, device/sony/fuji-common/prebuilt/resources-xdpi.mk)
+
+# Inherit from nozomi device
 $(call inherit-product, device/sony/nozomi/nozomi.mk)
 
 # Set those variables here to overwrite the inherited values.
