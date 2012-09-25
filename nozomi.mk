@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/init.semc.usb.rc:root/init.semc.usb.rc
 
+# FS
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/config/init.semc.fs.rc:root/init.semc.fs.rc
+
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
