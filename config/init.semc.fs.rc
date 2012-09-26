@@ -1,0 +1,11 @@
+on fs
+# mount mmc partitions
+    mount ext4 /dev/block/mmcblk0p12 /system wait ro barrier=1
+    setprop ro.crypto.tmpfs_options size=128m,mode=0771,uid=1000,gid=1000
+    mount ext4 /dev/block/mmcblk0p14 /data wait noatime nosuid nodev data=ordered noauto_da_alloc
+    mount ext4 /dev/block/mmcblk0p13 /cache wait noatime nosuid nodev data=ordered noauto_da_alloc
+
+    # SEMC, TA Daemon
+    class_start trimarea
+    exec /system/bin/wait4tad
+    class_start emmc

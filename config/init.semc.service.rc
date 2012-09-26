@@ -1,0 +1,3 @@
+service rmt_storage /system/bin/rmt_storage
+    class main
+    user root
