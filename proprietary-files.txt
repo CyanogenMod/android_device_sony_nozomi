@@ -139,6 +139,7 @@ lib/libril.so
 lib/libril-qc-qmi-1.so
 lib/libs1sl.so
 lib/libsc-a2xx.so
+lib/libsurfaceflinger_client.so
 lib/libta.so
 lib/libta_rmt_clnt.so
 lib/libthermal_mitigation.so
