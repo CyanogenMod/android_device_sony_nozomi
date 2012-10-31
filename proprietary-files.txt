@@ -156,6 +156,7 @@ vendor/camera/SOI13BS1_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
+vendor/firmware/libpn544_fw.so
 app/antstatenotifer.apk
 app/antradioservice.apk
 app/AntHalService.apk
