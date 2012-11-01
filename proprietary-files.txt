@@ -6,7 +6,6 @@ bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
 bin/fast-dormancy
-bin/illumination_service
 bin/mpdecision
 bin/netmgrd
 bin/nvcustomizer
@@ -121,7 +120,6 @@ lib/libgemini.so
 lib/libgsl.so
 lib/libidd.so
 lib/libidl.so
-lib/liblights-core.so
 lib/libmiscta.so
 lib/libmllite.so
 lib/libmlplatform.so
