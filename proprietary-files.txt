@@ -155,6 +155,9 @@ lib/libthermal_mitigation_fusion.so
 lib/pp_proc_plugin.so
 lib/qnet-plugin.so
 lib/tcp-connections.so
+lib/libmmjps.so
+lib/libmmmpod.so
+lib/libsys-utils.so
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
 vendor/camera/KMO13BS0_BU6456.dat
