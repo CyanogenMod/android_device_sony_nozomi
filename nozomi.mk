@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # USB function switching
 PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/config/init.semc.service.rc:root/init.semc.service.rc \
    $(LOCAL_PATH)/config/init.semc.usb.rc:root/init.semc.usb.rc
 
 PRODUCT_COPY_FILES += \
