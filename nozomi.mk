@@ -49,10 +49,9 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
 
-# Recovery bootstrap (device-specific part)
+# Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/recovery/bootrec-device:root/sbin/bootrec-device \
-   $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab
+   $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
