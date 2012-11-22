@@ -3,7 +3,6 @@ bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
 bin/fast-dormancy
-bin/illumination_service
 bin/mpdecision
 bin/netmgrd
 bin/nvcustomizer
