@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 VENDOR=sony
 DEVICE=nozomi
@@ -38,7 +38,16 @@ for FILE in `cat proprietary-files.txt | grep -v ^# | grep -v ^$`; do
     if [ $COUNT = "0" ]; then
         LINEEND=""
     fi
-    echo "    $OUTDIR/proprietary/$FILE:system/$FILE$LINEEND" >> $MAKEFILE
+
+    # Split the file from the destination (format is "file[:destination]")
+    OLDIFS=$IFS IFS=":" PARSING_ARRAY=($FILE) IFS=$OLDIFS
+    FILE=${PARSING_ARRAY[0]}
+    DEST=${PARSING_ARRAY[1]}
+    if [ -z "$DEST" ]; then
+        DEST=$FILE
+    fi
+
+    echo "    $OUTDIR/proprietary/$FILE:system/$DEST$LINEEND" >> $MAKEFILE
 done
 
 (cat << EOF) > ../../../$OUTDIR/$DEVICE-vendor.mk
