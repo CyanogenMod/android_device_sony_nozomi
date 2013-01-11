@@ -1,2 +1,5 @@
+# Radio
+persist.data_netmgrd_nint=3
+
 # Graphics
 ro.sf.lcd_density=320
