@@ -2,6 +2,7 @@ app/AntHalService.apk
 app/antradioservice.apk
 app/antstatenotifer.apk
 bin/bq275xx_fwloader
+bin/btld
 bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
@@ -114,6 +115,8 @@ lib/libdsm.so
 lib/libdss.so
 lib/libdsutils.so
 lib/libface.so
+lib/libfmradio.brcm-prop_rx.so
+lib/libfmradio.so
 lib/libgemini.so
 lib/libgsl.so
 lib/libidd.so
