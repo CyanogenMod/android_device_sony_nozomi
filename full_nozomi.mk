@@ -29,8 +29,8 @@ PRODUCT_PACKAGES := \
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from nozomi device
-$(call inherit-product, device/sony/fuji-common/prebuilt/resources-xdpi.mk)
+# Resources
+$(call inherit-product, device/sony/qcom-common/prebuilt/resources-xdpi.mk)
 
 # Inherit from nozomi device
 $(call inherit-product, device/sony/nozomi/nozomi.mk)
