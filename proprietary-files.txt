@@ -15,7 +15,6 @@ bin/qmuxd
 bin/rild
 bin/rmt_storage
 bin/secchand
-bin/semc-atfwd-d
 bin/startupflag
 bin/suntrold
 bin/ta_reader
