@@ -9,7 +9,7 @@
     "branch": "jellybean"
  },
  {
-    "repository": "android_packages_apps_FmRadio",
+    "repository": "android_packages_apps_FMRadio",
     "target_path": "packages/apps/FmRadio"
   }
 ]
