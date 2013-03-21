@@ -7,5 +7,9 @@
     "repository": "android_kernel_sony_msm8x60",
     "target_path": "kernel/sony/msm8x60",
     "branch": "jellybean"
+ },
+ {
+    "repository": "android_packages_apps_FmRadio",
+    "target_path": "packages/apps/FmRadio"
   }
 ]
