@@ -30,7 +30,7 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Resources
-$(call inherit-product, device/sony/common/prebuilt/resources-xdpi.mk)
+$(call inherit-product, device/sony/common/resources-xhdpi.mk)
 
 # Inherit from nozomi device
 $(call inherit-product, device/sony/nozomi/nozomi.mk)
