@@ -75,7 +75,6 @@ framework/com.dsi.ant.antradio_library.jar
 lib/hw/camera.msm8660.so
 lib/hw/gps.msm8660.so
 lib/hw/nfc.msm8660.so
-lib/hw/sensors.default.so
 lib/libMPU3050.so
 lib/lib_asb_tee.so
 lib/libacdbloader.so
