@@ -34,20 +34,21 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
-   $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
+   $(LOCAL_PATH)/rootdir/system/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
+   $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
 
 # USB function switching
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/init.semc.service.rc:root/init.semc.service.rc \
-   $(LOCAL_PATH)/config/init.semc.usb.rc:root/init.semc.usb.rc
+   $(LOCAL_PATH)/rootdir/init.semc.service.rc:root/init.semc.service.rc \
+   $(LOCAL_PATH)/rootdir/init.semc.usb.rc:root/init.semc.usb.rc
+
+#fstab
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/rootdir/fstab.semc:root/fstab.semc
 
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/fstab.semc:root/fstab.semc
-
-PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
-   $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
+   $(LOCAL_PATH)/rootdir/system/etc/vold.fstab:system/etc/vold.fstab \
+   $(LOCAL_PATH)/rootdir/system/etc/media_profiles.xml:system/etc/media_profiles.xml
 
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
@@ -55,13 +56,13 @@ PRODUCT_COPY_FILES += \
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/clearpad.kl:system/usr/keylayout/clearpad.kl \
-   $(LOCAL_PATH)/config/clearpad.idc:system/usr/idc/clearpad.idc \
-   $(LOCAL_PATH)/config/fuji-keypad.kl:system/usr/keylayout/fuji-keypad.kl \
-   $(LOCAL_PATH)/config/gpio-key.kl:system/usr/keylayout/gpio-key.kl \
-   $(LOCAL_PATH)/config/keypad-pmic-fuji.kl:system/usr/keylayout/keypad-pmic-fuji.kl \
-   $(LOCAL_PATH)/config/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
-   $(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl
+   $(LOCAL_PATH)rootdir/system/usr/keylayout/clearpad.kl:system/usr/keylayout/clearpad.kl \
+   $(LOCAL_PATH)rootdir/system/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
+   $(LOCAL_PATH)rootdir/system/usr/keylayout/fuji-keypad.kl:system/usr/keylayout/fuji-keypad.kl \
+   $(LOCAL_PATH)rootdir/system/usr/keylayout/gpio-key.kl:system/usr/keylayout/gpio-key.kl \
+   $(LOCAL_PATH)rootdir/system/usr/keylayout/keypad-pmic-fuji.kl:system/usr/keylayout/keypad-pmic-fuji.kl \
+   $(LOCAL_PATH)rootdir/system/usr/keylayout/pmic8058_pwrkey.kl:system/usr/keylayout/pmic8058_pwrkey.kl \
+   $(LOCAL_PATH)rootdir/system/usr/keylayout/simple_remote.kl:system/usr/keylayout/simple_remote.kl
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 

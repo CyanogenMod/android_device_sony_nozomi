@@ -1,8 +1,3 @@
-USE_CAMERA_STUB := true
-
-# inherit from the proprietary version
--include vendor/sony/nozomi/BoardConfigVendor.mk
-
 #inherit from the common fuji definitions
 -include device/sony/fuji-common/BoardConfigCommon.mk
 
@@ -16,8 +11,10 @@ BOARD_VOLD_MAX_PARTITIONS := 16
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 
+#Bdroid config
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/nozomi/bluetooth
+
 # Recovery
-TARGET_RECOVERY_INITRC := device/sony/nozomi/recovery/init.rc
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -28,3 +25,6 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_SDCARD_INTERNAL_DEVICE := /dev/block/mmcblk0p15
 
 TARGET_OTA_ASSERT_DEVICE := LT26i,nozomi
+
+# inherit from the proprietary version
+-include vendor/sony/nozomi/BoardConfigVendor.mk

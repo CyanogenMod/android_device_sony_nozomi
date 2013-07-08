@@ -17,12 +17,10 @@
   },
   {
     "repository": "android_packages_apps_FMRadio",
-    "target_path": "packages/apps/FmRadio",
-    "branch": "jellybean"
+    "target_path": "packages/apps/FmRadio"
   },
   {
     "repository": "android_hardware_sony_DASH",
-    "target_path": "hardware/sony/DASH",
-    "branch": "jellybean"
+    "target_path": "hardware/sony/DASH"
   }
 ]
