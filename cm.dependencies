@@ -2,17 +2,17 @@
   {
     "repository": "android_device_sony_fuji-common",
     "target_path": "device/sony/fuji-common"
- },
- {
-    "repository": "android_kernel_sony_msm8x60",
-    "target_path": "kernel/sony/msm8x60",
+  },
+  {
+    "repository": "android_kernel_sony_msm8660",
+    "target_path": "kernel/sony/msm8660",
     "branch": "jellybean"
- },
- {
+  },
+  {
     "repository": "android_packages_apps_FMRadio",
     "target_path": "packages/apps/FmRadio"
- },
- {
+  },
+  {
     "repository": "android_hardware_sony_DASH",
     "target_path": "hardware/sony/DASH"
   }
