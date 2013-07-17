@@ -46,8 +46,7 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/config/fstab.semc:root/fstab.semc
 
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
-   $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
+   $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab
 
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
