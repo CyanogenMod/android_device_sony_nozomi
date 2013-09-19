@@ -35,6 +35,10 @@ $(call inherit-product, device/sony/common/resources-xhdpi.mk)
 # Inherit from nozomi device
 $(call inherit-product, device/sony/nozomi/nozomi.mk)
 
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_nozomi
 PRODUCT_DEVICE := nozomi
